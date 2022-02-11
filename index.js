@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 
-const frontEndPath2 = __dirname + "/../gamesite-frontend-master/build";
+const frontEndPath2 = __dirname + "/../gaming-arcade-frontend/build";
 app.use(express.static(frontEndPath2));
 
 app.get('/', (req, res)=>{
